@@ -1,0 +1,271 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "winres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Русский (Россия) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_RUS)
+LANGUAGE LANG_RUSSIAN, SUBLANG_DEFAULT
+#pragma code_page(1251)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""winres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG_ADDLAMP DIALOGEX 0, 0, 235, 153
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add lamp"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,60,93,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,152,94,50,14
+    EDITTEXT        IDC_EDIT_X,59,26,50,14,ES_AUTOHSCROLL
+    LTEXT           "X",IDC_STATIC,39,30,8,8
+    EDITTEXT        IDC_EDIT_Y,59,45,51,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Z,59,65,51,14,ES_AUTOHSCROLL
+    LTEXT           "Y",IDC_STATIC,37,48,8,8
+    LTEXT           "Z",IDC_STATIC,37,67,8,8
+    LTEXT           "Color",IDC_COLOR,126,49,18,8
+    PUSHBUTTON      "Change",IDC_BUTTON_CHANGECOLOR,151,68,50,14
+END
+
+IDD_DIALOG_ADDMESH DIALOGEX 0, 0, 239, 170
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION " Add mesh"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "ОК",IDOK,57,129,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,125,129,50,14
+    EDITTEXT        IDC_EDIT_X,61,35,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Y,61,56,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Z,61,78,40,14,ES_AUTOHSCROLL
+    LTEXT           "X",IDC_STATIC,42,38,8,8
+    LTEXT           "Y",IDC_STATIC,41,58,8,8
+    LTEXT           "Z",IDC_STATIC,42,81,8,8
+    EDITTEXT        IDC_EDIT_NAME,146,34,40,14,ES_AUTOHSCROLL
+    LTEXT           "Name",IDC_STATIC,118,39,20,8
+    EDITTEXT        IDC_EDIT_PATH,147,54,56,14,ES_AUTOHSCROLL
+    LTEXT           "Path",IDC_STATIC,121,59,15,8
+    PUSHBUTTON      "Select",IDC_BUTTON_SELECTPATH,145,75,50,14
+    LTEXT           "Specular level",IDC_STATIC,68,108,47,8
+    EDITTEXT        IDC_EDIT_SPEC,137,105,40,14,ES_AUTOHSCROLL
+END
+
+IDD_DIALOG_ADDTEXTURE DIALOGEX 0, 0, 199, 128
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add texture"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,51,89,45,14
+    PUSHBUTTON      "Cancel",IDCANCEL,109,90,50,14
+    EDITTEXT        IDC_EDIT_PATH,55,22,40,14,ES_AUTOHSCROLL
+    LTEXT           "Path",IDC_STATIC,22,29,15,8
+    EDITTEXT        IDC_EDIT_NAME,55,51,40,14,ES_AUTOHSCROLL
+    LTEXT           "Name",IDC_STATIC2,22,55,20,8
+    PUSHBUTTON      "Select",IDC_BUTTON_SELECTPATH,109,22,50,14
+END
+
+IDD_DIALOG_CHANGEMESH DIALOGEX 0, 0, 239, 160
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Change mesh"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "ОК",IDOK,47,128,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,118,128,50,14
+    EDITTEXT        IDC_EDIT_X,51,24,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Y,50,50,40,14,ES_AUTOHSCROLL
+    LTEXT           "X",IDC_STATIC,30,29,8,8
+    LTEXT           "Y",IDC_STATIC,30,54,8,8
+    EDITTEXT        IDC_EDIT_Z,51,75,40,14,ES_AUTOHSCROLL
+    LTEXT           "Z",IDC_STATIC,29,79,8,8
+    COMBOBOX        IDC_COMBO_NAMES,145,27,69,30,CBS_DROPDOWNLIST | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+IDD_DIALOG_ADDTEXTUREDMESH DIALOGEX 0, 0, 267, 178
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Add textured mesh"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "ОК",IDOK,37,125,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,123,126,50,14
+    EDITTEXT        IDC_EDIT_X,41,28,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Y,40,50,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Z,41,71,40,14,ES_AUTOHSCROLL
+    LTEXT           "X",IDC_STATIC,17,32,8,8
+    LTEXT           "Y",IDC_STATIC,18,54,8,8
+    LTEXT           "Z",IDC_STATIC,19,73,8,8
+    EDITTEXT        IDC_EDIT_PATH,121,28,54,14,ES_AUTOHSCROLL
+    LTEXT           "Path",IDC_STATIC,102,34,15,8
+    PUSHBUTTON      "Select",IDC_BUTTON_SELECTPATH,192,28,50,14
+    COMBOBOX        IDC_COMBO_TEXTURES,121,52,55,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Texture",IDC_STATIC,91,56,26,8
+    EDITTEXT        IDC_EDIT_NAME,120,72,57,14,ES_AUTOHSCROLL
+    LTEXT           "Name",IDC_STATIC,96,77,20,8
+    CONTROL         "Include normals",IDC_CHECK_NORMALS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,119,95,68,10
+END
+
+IDD_DIALOG_CHENGELAMP DIALOGEX 0, 0, 238, 147
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Change lamp"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "ОК",IDOK,72,121,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,138,120,50,14
+    EDITTEXT        IDC_EDIT_X,46,27,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Y,46,52,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT_Z,47,78,40,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Change",IDC_BUTTON_CHANGECOLOR,133,77,50,14
+    COMBOBOX        IDC_COMBO_NAMES,130,27,52,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "X",IDC_STATIC,25,30,8,8
+    LTEXT           "Y",IDC_STATIC,25,55,8,8
+    LTEXT           "Z",IDC_STATIC,25,82,8,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_DIALOG_ADDLAMP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 146
+    END
+
+    IDD_DIALOG_ADDMESH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 232
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 163
+    END
+
+    IDD_DIALOG_ADDTEXTURE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 192
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 121
+    END
+
+    IDD_DIALOG_CHANGEMESH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 232
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 153
+    END
+
+    IDD_DIALOG_ADDTEXTUREDMESH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 260
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 171
+    END
+
+    IDD_DIALOG_CHENGELAMP, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 231
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 140
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_DIALOG_ADDLAMP AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_ADDMESH AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_ADDTEXTURE AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_CHANGEMESH AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_ADDTEXTUREDMESH AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_CHENGELAMP AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+#endif    // Русский (Россия) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
